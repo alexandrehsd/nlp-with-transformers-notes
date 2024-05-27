@@ -21,7 +21,7 @@ environment:
 # install core requirements
 requirements:
 	pip install --upgrade pip
-	pip install "pdm==2.4.9"
+	pip install pdm
 	pdm install
 
 .PHONY: jupyter

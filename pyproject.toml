@@ -8,6 +8,11 @@ authors = [
     {name = "Alexandre Henrique", email = "alexandre.hsd@gmail.com"},
 ]
 dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "seaborn",
+    "scipy",
     "tensorflow",
     "transformers>=4.28.1",
     "datasets>=2.12.0",
