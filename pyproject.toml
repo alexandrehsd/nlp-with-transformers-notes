@@ -4,6 +4,7 @@
 study = [
     "ipywidgets>=8.1.2",
     "mkdocs>=1.6.0",
+    "bertviz>=1.4.0",
 ]
 [project]
 name = ""
