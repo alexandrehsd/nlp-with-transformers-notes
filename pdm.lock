@@ -5,7 +5,7 @@
 groups = ["default", "study"]
 strategy = ["cross_platform"]
 lock_version = "4.4.1"
-content_hash = "sha256:4f1f26360d9367e2329371e630795921b111e09ba6f35fce04ff6c8ad353f4b9"
+content_hash = "sha256:6a42f3b4df17133872c13aaa7ea048431f987da695a90c44fce4629265b86fa1"
 
 [[package]]
 name = "absl-py"
@@ -2300,6 +2300,18 @@ files = [
     {file = "sentencepiece-0.2.0-cp39-cp39-win32.whl", hash = "sha256:38aed822fb76435fa1f12185f10465a94ab9e51d5e8a9159e9a540ce926f0ffd"},
     {file = "sentencepiece-0.2.0-cp39-cp39-win_amd64.whl", hash = "sha256:d8cf876516548b5a1d6ac4745d8b554f5c07891d55da557925e5c13ff0b4e6ad"},
     {file = "sentencepiece-0.2.0.tar.gz", hash = "sha256:a52c19171daaf2e697dc6cbe67684e0fa341b1248966f6aebb541de654d15843"},
+]
+
+[[package]]
+name = "seqeval"
+version = "1.2.2"
+summary = "Testing framework for sequence labeling"
+dependencies = [
+    "numpy>=1.14.0",
+    "scikit-learn>=0.21.3",
+]
+files = [
+    {file = "seqeval-1.2.2.tar.gz", hash = "sha256:f28e97c3ab96d6fcd32b648f6438ff2e09cfba87f05939da9b3970713ec56e6f"},
 ]
 
 [[package]]
