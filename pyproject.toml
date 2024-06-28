@@ -33,6 +33,9 @@ dependencies = [
     "sacrebleu>=2.4.2",
     "rouge-score>=0.1.2",
     "py7zr>=0.21.0",
+    "farm-haystack>=1.26.2",
+    "onnxruntime>=1.18.1",
+    "onnx>=1.16.1",
 ]
 requires-python = ">=3.9"
 license = {text = "MIT"}
