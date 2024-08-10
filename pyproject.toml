@@ -36,6 +36,8 @@ dependencies = [
     "farm-haystack>=1.26.2",
     "onnxruntime>=1.18.1",
     "onnx>=1.16.1",
+    "scikit-multilearn>=0.2.0",
+    "nlpaug>=1.1.11",
 ]
 requires-python = ">=3.9"
 license = {text = "MIT"}
